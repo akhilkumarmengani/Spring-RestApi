@@ -15,6 +15,10 @@ public class Dog {
     private String breed;
     private String origin;
 
+    public Dog(){
+
+    }
+
     public Dog(String name, String breed) {
         this.name = name;
         this.breed = breed;
